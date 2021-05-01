@@ -12,8 +12,7 @@ public class User {
 		
 	}
 		
-	public User(int id, String firstName, String lastName,
-			String email, int password) {
+	public User(int id, String firstName, String lastName,String email, int password) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
@@ -61,7 +60,5 @@ public class User {
 	public void setPassword(int password) {
 		this.password = password;
 	}
-
-	
-	
+		
 }
